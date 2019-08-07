@@ -200,6 +200,7 @@ a {
 
 li {
   margin-left: none;
+  font-size: 12px;
 }
 
 button {
@@ -229,7 +230,7 @@ ul {
   padding-left: 5%;
   display: block;
   margin: 30px auto;
-  white-space: nowrap;
+  /*white-space: nowrap;*/
 }
 
 .bold-title {
