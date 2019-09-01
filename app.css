@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: purple;
+  color: cornflowerblue;
 }
 
 .title-02 {
@@ -241,3 +241,8 @@ ul {
   font-weight: 50;
   font-size: 27.5px;
 }
+
+.sub-header {
+  font-size: 15px;
+}
+
