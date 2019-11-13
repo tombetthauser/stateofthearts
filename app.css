@@ -31,9 +31,9 @@ a {
 }
 
 #title-01 {
-  /* padding-bottom: 1.5em; */
+  padding-bottom: 0;
+  margin-bottom: -5px;
   /* border-bottom: 1px solid #ccc; */
-  /* margin-bottom: 3em; */
 }
 
 #title-link {
@@ -266,7 +266,9 @@ ul {
 or bottom to adjust it whatever few pixels need jacking. */
 
 .rainbow_banner {
-  width: 100%;
   height: 3px;
   opacity: .6;
+  width: 105%;
+  position: relative;
+  right: 2.5%;
 }
