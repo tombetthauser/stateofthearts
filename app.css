@@ -31,9 +31,9 @@ a {
 }
 
 #title-01 {
-  padding-bottom: 1.5em;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 3em;
+  /* padding-bottom: 1.5em; */
+  /* border-bottom: 1px solid #ccc; */
+  /* margin-bottom: 3em; */
 }
 
 #title-link {
@@ -235,14 +235,38 @@ ul {
 
 .bold-title {
   font-weight: 700;
+  position: relative;
+  right: 12.5px;
 }
 
 .thin-title {
   font-weight: 50;
   font-size: 27.5px;
+  position: relative;
+  right: 12.5px;
 }
 
 .sub-header {
   font-size: 15px;
 }
 
+.title_hand_img {
+  width: 35px;
+  vertical-align: middle;
+  position: relative;
+  bottom: 6px;
+  right: 10px;
+}
+
+.title_h3 {
+  vertical-align: middle;
+}
+
+/* I usually use vertical-align: middle;, then position: relative; and top 
+or bottom to adjust it whatever few pixels need jacking. */
+
+.rainbow_banner {
+  width: 100%;
+  height: 3px;
+  opacity: .6;
+}
