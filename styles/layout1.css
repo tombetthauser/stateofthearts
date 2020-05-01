@@ -48,10 +48,14 @@ text {
 }
 
 .left-column-section {
-  border-bottom: 1px solid black;
+  /* border-bottom: 1px solid black; */
   border-right: 1px solid black;
   overflow-y: scroll;
   flex-grow: 1;
+}
+
+.tech-icon, .left-column-header-hand, .left-column-header-hand-mobile {
+  filter: grayscale(100%);
 }
 
 .left-column-section ul {

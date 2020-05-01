@@ -45,7 +45,7 @@ text {
 }
 
 .left-column-section {
-  border-bottom: 1px solid #c4dfff;
+  /* border-bottom: 1px solid #c4dfff; */
   border-right: 1px solid #c4dfff;
   overflow-y: scroll;
   flex-grow: 1;
