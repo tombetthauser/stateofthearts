@@ -47,6 +47,14 @@ text {
   padding-top: 12.5px;
 }
 
+.left-column-header-hand, .left-column-header-hand-mobile {
+  filter: grayscale(100%);
+}
+
+.tech-icon {
+  filter: grayscale(100%) invert(1);
+}
+
 .left-column-section {
   /* border-bottom: 1px solid white; */
   border-right: 1px solid white;

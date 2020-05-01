@@ -54,7 +54,11 @@ text {
   flex-grow: 1;
 }
 
-.tech-icon, .left-column-header-hand, .left-column-header-hand-mobile {
+.left-column-header-hand, .left-column-header-hand-mobile {
+  filter: grayscale(100%) invert(1);
+}
+
+.tech-icon {
   filter: grayscale(100%);
 }
 
