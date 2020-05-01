@@ -1,0 +1,1224 @@
+let arr = [
+	{name: "CA",	value: 1},
+	{name: "NM",	value: 2},
+	{name: "CA",	value: 1},
+	{name: "AK",	value: 1},
+	{name: "GA",	value: 1},
+	{name: "MD",	value: 2},
+	{name: "LA",	value: 1},
+	{name: "NY",	value: 1},
+	{name: "CA",	value: 2},
+	{name: "IN",	value: 1},
+	{name: "NY",	value: 3},
+	{name: "NY",	value: 1},
+	{name: "NY",	value: 1},
+	{name: "PA",	value: 1},
+	{name: "AZ",	value: 1},
+	{name: "VA",	value: 1},
+	{name: "WI",	value: 1},
+	{name: "OH",	value: 2},
+	{name: "DC",	value: 1},
+	{name: "FL",	value: 1},
+	{name: "MI",	value: 1},
+	{name: "MI",	value: 1},
+	{name: "KY",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "CA",	value: 3},
+	{name: "CT",	value: 1},
+	{name: "IA",	value: 1},
+	{name: "NC",	value: 1},
+	{name: "HI",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "TN",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "MI",	value: 1},
+	{name: "NC",	value: 1},
+	{name: "IL",	value: 1},
+	{name: "MD",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "MN",	value: 1},
+	{name: "NY",	value: 1},
+	{name: "WI",	value: 1},
+	{name: "PA",	value: 1},
+	{name: "NC",	value: 1},
+	{name: "NH",	value: 1},
+	{name: "FL",	value: 1},
+	{name: "Canada",	value: 1},
+	{name: "OH",	value: 1},
+	{name: "VA",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "KY",	value: 1},
+	{name: "TN",	value: 1},
+	{name: "CA",	value: 2},
+	{name: "CA",	value: 1},
+	{name: "LA",	value: 1},
+	{name: "IL",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "CA",	value: 2},
+	{name: "IL",	value: 1},
+	{name: "NY",	value: 1},
+	{name: "OR",	value: 1},
+	{name: "WA",	value: 1},
+	{name: "NY",	value: 1},
+	{name: "VA",	value: 1},
+	{name: "LA",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "NM",	value: 1},
+	{name: "FL",	value: 1},
+	{name: "MI",	value: 1},
+	{name: "WA",	value: 1},
+	{name: "MA",	value: 1},
+	{name: "NY",	value: 1},
+	{name: "VT",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "PA",	value: 1},
+	{name: "OR",	value: 1},
+	{name: "PA",	value: 1},
+	{name: "KS",	value: 1},
+	{name: "CA",	value: 1},
+	{name: "WI",	value: 1},
+	{name: "CO",	value: 1},
+	{name: "CA",	value: 1},
+];
+
+let hash = {};
+
+for (let i = 0; i < arr.length; i++) {
+  hash[arr[i].name] ? hash[arr[i].name] += arr[i].value : hash[arr[i].name] = arr[i].value;
+}
+
+
+
+let hash = {};
+
+for (let i = 0; i < arr.length; i++) {
+  hash[arr[i]] ? hash[arr[i]]++ : hash[arr[i]] = 1;
+}
+
+
+
+
+
+
+let hash = {};
+
+for (let i = 0; i < arr.length; i++) {
+  hash[arr[i]] ? hash[arr[i]]++ : hash[arr[i]] = 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{ 
+  CA: 27,
+  NM: 3,
+  AK: 1,
+  GA: 1,
+  MD: 3,
+  LA: 3,
+  NY: 10,
+  IN: 1,
+  PA: 4,
+  AZ: 1,
+  VA: 3,
+  WI: 3,
+  OH: 3,
+  DC: 1,
+  FL: 3,
+  MI: 4,
+  KY: 2,
+  CT: 1,
+  IA: 1,
+  NC: 3,
+  HI: 1,
+  TN: 2,
+  IL: 3,
+  MN: 1,
+  NH: 1,
+  Canada: 1,
+  OR: 2,
+  WA: 2,
+  MA: 1,
+  VT: 1,
+  KS: 1,
+  CO: 1 
+}
+
+{ 
+  'Art Council Research': 1,
+  'Non Profit Gallery': 1,
+  'Art Societies': 2,
+  'BFA / MFA Peers': 15,
+  'Cold Contacting Spaces': 12,
+  'Contacts from Facebook': 11,
+  'Contacts from Instagram': 27,
+  'Direct Contact At An Art Center': 1,
+  'Direct Emails from Gallerists / Curators': 23,
+  'Friends': 1,
+  'Gallery Represented': 1,
+  'Group Invitationals': 1,
+  'N/A': 2,
+  'Open Call On Instagram': 1,
+  'Other Artist Peers': 50,
+  'Relationships With Spaces': 1,
+  'Structured Applications / Open Calls': 37,
+  'Teachers / Faculty': 15,
+}
+
+
+
+wordclouds 19 * 5 => 95 min => 1.6 hours
+graphs 48 * 3 => 144 min => 2.4 hours
+total => 4 hours
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Art Center Store In Consignment",
+  "Artomat Machines",
+  "Book Fair",
+  "Book Fair",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Event Attendants",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Former / Current Faculty",
+  "Former / Current Faculty",
+  "Former / Current Faculty",
+  "Former / Current Faculty",
+  "Former / Current Faculty",
+  "Former / Current Faculty",
+  "Former / Current Faculty",
+  "Gallerists / Curators",
+  "Gallerists / Curators",
+  "Gallerists / Curators",
+  "Gallerists / Curators",
+  "Gallerists / Curators",
+  "Gallerists / Curators",
+  "Gallery Clients",
+  "I Don’t Sell My Art",
+  "Interior Designer For Client",
+  "My Financial Advisor",
+  "Nobody",
+  "None",
+  "None",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Strangers",
+  "Youtubers (Animation Assets)",
+]
+
+
+
+
+[
+  { name: 'Amateur / New Collectors':, value: 35 }
+  { name: 'Art Center Store In Consignment', value:: 1 }
+  { name: 'Artomat Machines', value:: 1 }
+  { name: 'Book Fair', value:: 2 }
+  { name: 'BFA / MFA Peers', value:: 8 }
+  { name: 'Established / Experienced Collectors':, value: 20 }
+  { name: 'Event Attendants', value:: 1 }
+  { name: 'Event Attendees':, value: 31 }
+  { name: 'Family / Friends':, value: 62 }
+  { name: 'Former / Current Faculty', value:: 7 }
+  { name: 'Gallerists / Curators', value:: 6 }
+  { name: 'Gallery Clients', value:: 1 }
+  { name: 'I Don’t Sell My Art', value:: 1 }
+  { name: 'Interior Designer For Client', value:: 1 }
+  { name: 'My Financial Advisor', value:: 1 }
+  { name: 'Nobody', value:: 1 }
+  { name: 'None', value:: 2 }
+  { name: 'Online Fans':, value: 31 }
+  { name: 'Other Artists':, value: 34 }
+  { name: 'Strangers', value:: 1 }
+  { name: 'Youtubers (Animation Assets)', value:: 1 }
+]
+
+
+
+
+
+
+
+
+[
+  { name: "Etsy", value: 11 },
+  { name: "Saatchi Art", value: 3 },
+  { name: "Art Finder", value: 2 },
+  { name: "BigCartel", value: 2 },
+  { name: "Red Bubble", value: 2 },
+  { name: "Art in Context", value: 1 },
+  { name: "Artery", value: 1 },
+  { name: "Artsy", value: 1 },
+  { name: "Bandcamp", value: 1 },
+  { name: "Deviantart", value: 1 },
+  { name: "SquareUp", value: 1 },
+  { name: "Facebook", value: 1 },
+  { name: "Fine Art America", value: 1 },
+  { name: "Fiverr", value: 1 },
+  { name: "Instagram", value: 1 },
+  { name: "Padel 8", value: 1 },
+  { name: "Personal Website", value: 1 },
+  { name: "Printful", value: 1 },
+  { name: "Square Space", value: 1 },
+  { name: "Wix", value: 1 },
+  { name: "Wordpress Website", value: 1 },
+]
+
+
+
+
+
+
+What neighborhood and city do you currently live in? Separate with commas. (i.e. Korea Town, Los Angeles)
+[
+  "Albany (CA)",
+  "Albuquerque",
+  "Albuquerque",
+  "Altadena (CA)",
+  "Anchorage",
+  "Atlanta",
+  "Bakersfield",
+  "Baltimore",
+  "Baltimore",
+  "Baton Rouge (LA)",
+  "Beacon",
+  "Berkeley",
+  "Berkeley",
+  "Bloomington",
+  "Bronx Nyc",
+  "Brooklyn",
+  "Brooklyn",
+  "Brooklyn",
+  "Buffalo",
+  "Capitola",
+  "Carlisle",
+  "Central Phoenix",
+  "Chesterfield",
+  "Chicago",
+  "Chicago",
+  "Chippewa Falls",
+  "Columbus",
+  "Columbus",
+  "Columbus",
+  "Congress Heights (DC)",
+  "Coral Springs (FL)",
+  "Corktown",
+  "Creston",
+  "Decline To Say",
+  "Detroit",
+  "Downtown Lexington",
+  "East Palo Alto",
+  "Eastside",
+  "Echo Park",
+  "Echo Park",
+  "Echo Park",
+  "Edgewood",
+  "Fayetteville",
+  "Florida Indian Beach",
+  "Grand Rapids",
+  "Jacksonville",
+  "Kihei",
+  "Knights Bridge",
+  "Knoxville",
+  "Lafayette",
+  "Lake Ann (MI)",
+  "Lake Toxaway",
+  "Lake Zurich",
+  "Lincoln Heights",
+  "Long Beach",
+  "Los Angeles",
+  "Los Angeles",
+  "Los Angeles",
+  "Los Angeles",
+  "Los Angeles",
+  "Los Angeles",
+  "Macalester-Groveland (MN)",
+  "Madison",
+  "Madison",
+  "Malvern",
+  "Massey Hill",
+  "Maui",
+  "Meredith (NH)",
+  "Miami",
+  "Mile End Montreal",
+  "Milo-Grogan",
+  "Milwaukee",
+  "Milwaukee",
+  "Monroe Ward",
+  "Monrovia",
+  "Murray",
+  "Nashville",
+  "Natomas",
+  "Natomas",
+  "New Brighton State Beach",
+  "New Haven",
+  "New Orleans",
+  "New York",
+  "New York",
+  "Normal (IL)",
+  "North Beach",
+  "North East Lakeside",
+  "North Oak Park",
+  "Oak Park",
+  "Oak Park",
+  "Old Irving Park",
+  "Park Slope",
+  "Philadelphia",
+  "Pittsburgh",
+  "Portland",
+  "Pullman (Wa)",
+  "Richmond",
+  "Richmond",
+  "Richmond",
+  "Rural Elton (LA)",
+  "Sacramento",
+  "Sacramento",
+  "Sacramento",
+  "Sacramento",
+  "Sacramento",
+  "Sacramento",
+  "Saint Paul",
+  "San Francisco",
+  "San Francisco",
+  "San Jose",
+  "Santa Fe",
+  "Sarasota",
+  "Saugatuck",
+  "Seattle",
+  "Somerville (MA)",
+  "South Buffalo",
+  "South Burlington (VT)",
+  "South Oak Park",
+  "South Philadelphia",
+  "Southeast Portland",
+  "Spring Hill",
+  "Stockton",
+  "Suburban Kansas City",
+  "Tecopa",
+  "The Bronx",
+  "The Bronx",
+  "Washington Heights",
+  "Westcliffe (CO)",
+  "Wrigley",
+]
+
+{ 'Albany (CA)': 1,
+  Albuquerque: 2,
+  'Altadena (CA)': 1,
+  Anchorage: 1,
+  Atlanta: 1,
+  Bakersfield: 1,
+  Baltimore: 2,
+  'Baton Rouge (LA)': 1,
+  Beacon: 1,
+  Berkeley: 2,
+  Bloomington: 1,
+  'Bronx Nyc': 1,
+  Brooklyn: 3,
+  Buffalo: 1,
+  Capitola: 1,
+  Carlisle: 1,
+  'Central Phoenix': 1,
+  Chesterfield: 1,
+  Chicago: 2,
+  'Chippewa Falls': 1,
+  Columbus: 3,
+  'Congress Heights (DC)': 1,
+  'Coral Springs (FL)': 1,
+  Corktown: 1,
+  Creston: 1,
+  'Decline To Say': 1,
+  Detroit: 1,
+  'Downtown Lexington': 1,
+  'East Palo Alto': 1,
+  Eastside: 1,
+  'Echo Park': 3,
+  Edgewood: 1,
+  Fayetteville: 1,
+  'Florida Indian Beach': 1,
+  'Grand Rapids': 1,
+  Jacksonville: 1,
+  Kihei: 1,
+  'Knights Bridge': 1,
+  Knoxville: 1,
+  Lafayette: 1,
+  'Lake Ann (MI)': 1,
+  'Lake Toxaway': 1,
+  'Lake Zurich': 1,
+  'Lincoln Heights': 1,
+  'Long Beach': 1,
+  'Los Angeles': 6,
+  'Macalester-Groveland (MN)': 1,
+  Madison: 2,
+  Malvern: 1,
+  'Massey Hill': 1,
+  Maui: 1,
+  'Meredith (NH)': 1,
+  Miami: 1,
+  'Mile End Montreal': 1,
+  'Milo-Grogan': 1,
+  Milwaukee: 2,
+  'Monroe Ward': 1,
+  Monrovia: 1,
+  Murray: 1,
+  Nashville: 1,
+  Natomas: 2,
+  'New Brighton State Beach': 1,
+  'New Haven': 1,
+  'New Orleans': 1,
+  'New York': 2,
+  'Normal (IL)': 1,
+  'North Beach': 1,
+  'North East Lakeside': 1,
+  'North Oak Park': 1,
+  'Oak Park': 2,
+  'Old Irving Park': 1,
+  'Park Slope': 1,
+  Philadelphia: 1,
+  Pittsburgh: 1,
+  Portland: 1,
+  'Pullman (Wa)': 1,
+  Richmond: 3,
+  'Rural Elton (LA)': 1,
+  Sacramento: 6,
+  'Saint Paul': 1,
+  'San Francisco': 2,
+  'San Jose': 1,
+  'Santa Fe': 1,
+  Sarasota: 1,
+  Saugatuck: 1,
+  Seattle: 1,
+  'Somerville (MA)': 1,
+  'South Buffalo': 1,
+  'South Burlington (VT)': 1,
+  'South Oak Park': 1,
+  'South Philadelphia': 1,
+  'Southeast Portland': 1,
+  'Spring Hill': 1,
+  Stockton: 1,
+  'Suburban Kansas City': 1,
+  Tecopa: 1,
+  'The Bronx': 2,
+  'Washington Heights': 1,
+  'Westcliffe (CO)': 1,
+  Wrigley: 1 }
+
+
+
+
+  Albany, CA
+Albuquerque, NM
+Albuququerque, NM
+Altadena, CA
+Anchorage, AK
+Atlanta, GA
+Baltimore, MD
+Baltimore, MD
+Baton rouge, LA
+Beacon, NY
+Berkeley, CA
+Berkeley, CA
+Bloomington, IN
+Bronx, NY
+Bronx, NY
+Bronx, NY
+Brooklyn, NY
+Buffalo, NY
+Carlisle, PA
+Central Phoenix, AZ
+Chesterfield / Richmond, VA
+Chippewa Falls, WI
+Columbus, OH
+Columbus, OH
+Congress Heights, DC 
+Coral Springs, FL
+Corktown, Detroit MI
+Creston, Grand Rapids MI
+Downtown Lexington KY
+East Palo Alto, CA
+Eastside Stockton, CA
+Echo Park, Los Angeles CA
+Echo Park, Los Angeles CA
+Echo Park, Los Angeles CA
+Edgewood neighborhood, New Haven CT
+Iowa City, IA
+Jacksonville, NC
+Kihei, Maui, HI
+Knights Bridge, Bakersfield CA
+Knoxville, TN
+Lafayette CA
+Lake Ann, MI
+Lake Toxaway, NC
+Lake Zurich, Chicago IL
+Lakeside, North East MD
+Lincoln Heights, Los Angeles CA
+Los Angeles CA
+Macalester-Groveland, St. Paul MN
+Madison, Brooklyn NYC
+Madison, Milwaukee WI
+Malvern, Philadelphia PA
+Massey Hill, Fayetteville, NC
+Meredith, NH
+Miami, FL
+Mile End, Montreal (Canada)
+Milo-Grogan, Columbus OH
+Monroe Ward, Richmond, VA
+Monrovia, Los Angeles CA
+Murray, KY
+Nashville, TN 
+Natomas, Sacramento CA
+Natomas, Sacramento CA
+New Brighton State Beach, Capitola CA
+New Orleans, LA
+Normal, IL
+North Beach, San Francisco CA
+North Oak Park, Sacramento CA
+Oak Park, Sacramento CA
+Oak Park, Sacramento CA
+Old Irving Park, Chicago IL
+Park Slope, Brooklyn NY
+Portland, OR
+Pullman, WA
+Queens, NY
+Richmond, VA
+Rural Elton, LA
+Sacramento, CA
+San Francisco, CA
+San Jose, CA
+Santa Fe, NM
+Sarasota, Indian Beach FL
+Saugatuck, MI
+Seattle, WA
+Somerville, MA
+South Buffalo, NY
+South Burlington, VT
+South Oak Park, Sacramento CA
+South Philadelphia, PA
+Southeast Portland, OR
+Spring Hill, Pittsburgh PA
+Suburban Kansas City, KS
+Tecopa, CA
+Washington Heights, Milwaukee WI
+Westcliffe, CO
+Wrigley, Long Beach CA
+
+
+Albany, CA
+Albuquerque, NM
+Albuququerque, NM
+Altadena, CA
+Anchorage, AK
+Atlanta, GA
+Baltimore, MD
+Baltimore, MD
+Baton rouge, LA
+Beacon, NY
+Berkeley, CA
+Berkeley, CA
+Bloomington, IN
+Bronx, NY
+Bronx, NY
+Bronx, NY
+Brooklyn, NY
+Buffalo, NY
+Carlisle, PA
+Central Phoenix, AZ
+Chesterfield / Richmond, VA
+Chippewa Falls, WI
+Columbus, OH
+Columbus, OH
+Congress Heights, DC 
+Coral Springs, FL
+Corktown, Detroit MI
+Creston, Grand Rapids MI
+Downtown Lexington KY
+East Palo Alto, CA
+Eastside Stockton, CA
+Echo Park, Los Angeles CA
+Echo Park, Los Angeles CA
+Echo Park, Los Angeles CA
+Edgewood neighborhood, New Haven CT
+Iowa City, IA
+Jacksonville, NC
+Kihei, Maui, HI
+Knights Bridge, Bakersfield CA
+Knoxville, TN
+Lafayette CA
+Lake Ann, MI
+Lake Toxaway, NC
+Lake Zurich, Chicago IL
+Lakeside, North East MD
+Lincoln Heights, Los Angeles CA
+Los Angeles CA
+Macalester-Groveland, St. Paul MN
+Madison, Brooklyn NYC
+Madison, Milwaukee WI
+Malvern, Philadelphia PA
+Massey Hill, Fayetteville, NC
+Meredith, NH
+Miami, FL
+Mile End, Montreal (Canada)
+Milo-Grogan, Columbus OH
+Monroe Ward, Richmond, VA
+Monrovia, Los Angeles CA
+Murray, KY
+Nashville, TN 
+Natomas, Sacramento CA
+Natomas, Sacramento CA
+New Brighton State Beach, Capitola CA
+New Orleans, LA
+Normal, IL
+North Beach, San Francisco CA
+North Oak Park, Sacramento CA
+Oak Park, Sacramento CA
+Oak Park, Sacramento CA
+Old Irving Park, Chicago IL
+Park Slope, Brooklyn NY
+Portland, OR
+Pullman, WA
+Queens, NY
+Richmond, VA
+Rural Elton, LA
+Sacramento, CA
+San Francisco, CA
+San Jose, CA
+Santa Fe, NM
+Sarasota, Indian Beach FL
+Saugatuck, MI
+Seattle, WA
+Somerville, MA
+South Buffalo, NY
+South Burlington, VT
+South Oak Park, Sacramento CA
+South Philadelphia, PA
+Southeast Portland, OR
+Spring Hill, Pittsburgh PA
+Suburban Kansas City, KS
+Tecopa, CA
+Washington Heights, Milwaukee WI
+Westcliffe, CO
+Wrigley, Long Beach CA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Who did you sell art or art-related work to this past year? (check any that apply or add other)
+"",
+
+[
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Amateur / New Collectors",
+  "Art Center Store In Consignment",
+  "Artomat Machines",
+  "Book Fair",
+  "Book Fair",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "BFA / MFA Peers",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Established / Experienced Collectors",
+  "Event Attendants",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Event Attendees",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Family / Friends",
+  "Former / Current Faculty",
+  "Former / Current Faculty",
+  "Former / Current Faculty",
+  "Former / Current Faculty",
+  "Former / Current Faculty",
+  "Former / Current Faculty",
+  "Former / Current Faculty",
+  "Gallerists / Curators",
+  "Gallerists / Curators",
+  "Gallerists / Curators",
+  "Gallerists / Curators",
+  "Gallerists / Curators",
+  "Gallerists / Curators",
+  "Gallery Clients",
+  "I Don’t Sell My Art",
+  "Interior Designer For Client",
+  "My Financial Advisor",
+  "Nobody",
+  "None",
+  "None",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Online Fans",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Other Artists",
+  "Strangers",
+  "Youtubers (Animation Assets)",
+]

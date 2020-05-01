@@ -1,0 +1,102 @@
+graph-keywords-mobile
+graph-exhibition-contact-mobile
+final-thoughts-mobile
+negative-shoutout-mobile
+positive-shoutout-mobile
+extra-duties-mobile
+schools-taught-at-mobile
+city-benefits-mobile
+previous-city-mobile
+cities-neighborhoods-cloud-mobile
+past-degrees-mobile
+current-school-mobile
+job-types-mobile
+art-resources-mobile
+social-media-negatives-mobile
+social-media-positives-mobile
+sale-types-cloud-mobile
+studio-visit-sources-cloud-mobile
+studio-visitors-cloud-mobile
+sales-mediums-cloud-mobile
+graph-buyers-mobile
+graph-gallery-spaces-mobile
+
+
+
+graph-keywords :)
+graph-exhibition-contact X
+final-thoughts :)
+negative-shoutout :)
+positive-shoutout :)
+extra-duties :)
+schools-taught-at
+city-benefits
+previous-city
+cities-neighborhoods-cloud
+past-degrees
+current-school
+job-types
+art-resources
+social-media-negatives
+social-media-positives
+sale-types-cloud
+studio-visit-sources-cloud
+studio-visitors-cloud
+sales-mediums-cloud
+graph-buyers
+graph-gallery-spaces
+
+
+
+
+
+
+
+
+<svg class="schools-taught-at desktop-only"></svg>
+<svg class="schools-taught-at-mobile mobile-only"></svg>
+
+<svg class="city-benefits desktop-only"></svg>
+<svg class="city-benefits-mobile mobile-only"></svg>
+
+<svg class="previous-city desktop-only"></svg>
+<svg class="previous-city-mobile mobile-only"></svg>
+
+<svg class="cities-neighborhoods-cloud desktop-only"></svg>
+<svg class="cities-neighborhoods-cloud-mobile mobile-only"></svg>
+
+<svg class="past-degrees desktop-only"></svg>
+<svg class="past-degrees-mobile mobile-only"></svg>
+
+<svg class="current-school desktop-only"></svg>
+<svg class="current-school-mobile mobile-only"></svg>
+
+<svg class="job-types desktop-only"></svg>
+<svg class="job-types-mobile mobile-only"></svg>
+
+<svg class="art-resources desktop-only"></svg>
+<svg class="art-resources-mobile mobile-only"></svg>
+
+<svg class="social-media-negatives desktop-only"></svg>
+<svg class="social-media-negatives-mobile mobile-only"></svg>
+
+<svg class="social-media-positives desktop-only"></svg>
+<svg class="social-media-positives-mobile mobile-only"></svg>
+
+<svg class="sale-types-cloud desktop-only"></svg>
+<svg class="sale-types-cloud-mobile mobile-only"></svg>
+
+<svg class="studio-visit-sources-cloud desktop-only"></svg>
+<svg class="studio-visit-sources-cloud-mobile mobile-only"></svg>
+
+<svg class="studio-visitors-cloud desktop-only"></svg>
+<svg class="studio-visitors-cloud-mobile mobile-only"></svg>
+
+<svg class="sales-mediums-cloud desktop-only"></svg>
+<svg class="sales-mediums-cloud-mobile mobile-only"></svg>
+
+<svg class="graph-buyers desktop-only"></svg>
+<svg class="graph-buyers-mobile mobile-only"></svg>
+
+<svg class="graph-gallery-spaces desktop-only"></svg>
+<svg class="graph-gallery-spaces-mobile mobile-only"></svg>

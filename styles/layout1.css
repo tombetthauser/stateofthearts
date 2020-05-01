@@ -1,0 +1,880 @@
+svg g text {
+  z-index: -1;
+  max-width: 300px;
+}
+
+body {
+  background-color: white;
+  color: black;
+  opacity: 1 !important;
+}
+
+.html-body-container {
+  font-family: monospace;
+  font-size: 12px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+svg {
+  overflow: visible;
+  margin-top: 30px;
+}
+
+text {
+  font-family: monospace;
+  font-size: 12px;
+  fill: black !important;
+}
+
+
+/* Left column styling starts here. */
+
+.left-column-container {
+  flex-direction: column;
+  display: flex;
+  height: 100vh;
+  min-width: 250px;
+}
+
+.left-column-header {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  min-height: 26.5px;
+  max-height: 26.5px;
+  padding-left: 37.5px;
+  padding-top: 12.5px;
+}
+
+.left-column-section {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  overflow-y: scroll;
+  flex-grow: 1;
+}
+
+.left-column-section ul {
+  /* background-color: #fff; */
+}
+
+.left-column-footer {
+  border-right: 1px solid black;
+  min-height: 35px;
+  padding: 15px 12.5px 15px 20px;
+}
+
+/* .intro-title-p {} */
+
+.side-note-p {
+  width: 150px;
+  font-size: 11px;
+  line-height: 14px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+
+
+/* Main section styling starts here. */
+
+.main-section-container {
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 100vh;
+  flex-grow: 1;
+}
+
+
+
+/* Main header styling starts here. */
+
+.main-header-container {
+  display: flex;
+  height: 40px;
+  /* background-color: red;
+    background: repeating-linear-gradient(
+    45deg,
+    #fff,
+    #fff 10px,
+    #fff 10px,
+    black 11px
+  ); */
+}
+
+.left-column-footer li {
+  display: inline-block;
+}
+
+.left-bottom-links-ul {
+  margin-left: -55px;
+  margin-top: 10px !important;
+  margin-bottom: 5px !important;
+}
+
+.main-header-nav {
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  cursor: pointer;
+  display: none;
+  width: 40px;
+}
+
+.main-header-section {
+  border-bottom: 1px solid black;
+  /* border-right: 1px solid black; */
+  flex-grow: 1;
+  /* background-color: #fff; */
+  z-index: 1;
+  line-height: 40px;
+  padding-left: 35px;
+  font-size: 13px;
+}
+
+
+
+
+.medium-lines {
+  /* background: repeating-linear-gradient(
+    45deg,
+    #fff,
+    #fff 10px,
+    #fff 10px,
+    black 11px
+  ); */
+}
+
+.small-lines {
+  /* background: repeating-linear-gradient(
+    45deg,
+    #fff,
+    #fff 10px,
+    #fff 10px,
+    black 11px
+  ); */
+}
+
+.navburger-line {
+  height: 6px;
+  width: 20px;
+  margin-left: 10px;
+  border-bottom: 1px solid black;
+}
+
+.navburger-line:nth-child(1) {
+  margin-top: 6.5px;
+}
+
+/* Main body styling starts here. */
+
+.mobile-drop-down {
+  border-bottom: none;
+  overflow: hidden;
+  transition: .2s;
+  display: none;
+  height: 0px;
+}
+
+.main-section-body {
+  padding: 7.5px 35px;
+  flex-grow: 1;
+  top: 1px;
+}
+.main-section-body svg {
+  margin: 30px auto
+}
+
+
+
+/* General text formatting starts here. */
+
+.basic-p {
+  width: 500px;
+  max-width: 90%;
+  line-height: 20px;
+}
+
+
+/* Left column links styling starts here. */
+
+.left-column-ul {
+  padding-left: 25px;
+  list-style: none;
+}
+
+.left-column-li {
+  font-family: monospace;
+  line-height: 25px;
+  font-weight: 100;
+  font-size: 12px;
+  cursor: pointer;
+  /* color: #000; */
+}
+
+.left-column-li:hover {
+  /* text-decoration: underline; */
+}
+
+.cities-top-text-div {
+  border-bottom: 1px solid black;
+  flex-grow: 1;
+  background-color: white;
+  z-index: 50;
+  margin: -7.5px -35px 25px -35px;
+  position: relative;
+  padding: 10px 35px 30px;
+  max-width: 100%;
+}
+
+.cities-top-text-p {
+  line-height: 20px;
+  max-width: 975px;
+}
+
+.cities-neighborhoods-cloud-div {
+    height: 1200px;
+}
+
+.left-column-header-text {
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+.left-column-header-year {
+  font-size: 15px;
+  /* letter-spacing: -1px; */
+}
+
+.left-nav-highlighted-link {
+  border-bottom: 1px solid black;
+}
+
+.left-column-header-hand {
+  height: 17.5px;
+  position: absolute;
+  top: 9px;
+  left: 15px;
+}
+
+.left-column-header-hand-mobile {
+  height: 16.5px;
+  margin-bottom: -3px;
+  display: none;
+}
+
+.credits-tom-image {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  display: inline-block;
+  background-image: url("https://avatars3.githubusercontent.com/u/28816983?s=460&u=d2779bf0c7aadba25ddb9a9a7369dad1eb0f5471&v=4");
+  background-size: cover;
+  background-position: center;
+}
+
+.left-footer-inner-div {
+  width: 170px;
+  display: inline-block;
+  padding-top: 3px;
+  position: absolute;
+  margin-left: 10px;
+  line-height: 16.5px;
+}
+
+.left-bottom-links-ul {
+  padding-left: 55px;
+  margin-top: 2.5px;
+}
+
+.left-bottom-links-ul li {
+  height: 13.5px;
+}
+
+.introduction-div {
+  margin-bottom: 100px;
+}
+
+.introduction-div, 
+.cities-top-text-div {
+  line-height: 20px;
+}
+
+.introduction-div p,
+.cities-top-text-div p {
+  max-width: 960px;
+  margin-top: 25px;
+}
+
+.introduction-div p, .introduction-div ul, .introduction-div button {
+  margin-bottom: 25px;
+}
+
+.introduction-div li {
+  margin-bottom: 4px;
+}
+
+/* .introduction-div strong {
+  color: black;
+  background-color: rgb(255, 206, 214);
+  padding: 2px 8px;
+  border-radius: 2px;
+  font-weight: 50;
+  text-shadow: -1px 1px 1px rgba(0,0,0,.4);
+  text-shadow: -1px 1px 1px rgba(0,0,0,.2);
+} */
+
+/* .introduction-div strong {
+  color: black;
+  color: black;
+  background-color: rgb(211, 211, 211);
+  background-color: rgb(233, 233, 233);
+  padding: 4px 8px 2px;
+  border-radius: 2px;
+  font-weight: 50;
+  font-family: sans-serif;
+  border-radius: 2px;
+  font-weight: 50;
+  font-size: 18px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+} */
+
+strong {
+  border-radius: 0px;
+  font-weight: 50;
+  font-size: 14px;
+  color: black;
+  font-family: sans-serif;
+  /* border: 1px solid black; */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 3.5px 10px 1.5px 10px;
+  letter-spacing: 1px;
+  /* border-style: double; */
+  /* animation: color-text-shift; */
+  /* animation-duration: 20s; */
+  /* animation-iteration-count: infinite; */
+}
+/* 
+.introduction-div strong {
+  border-radius: 2px;
+  font-weight: 50;
+  font-size: 18px;
+  color: rgb(255, 161, 175);
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  animation: color-text-shift;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  border: 1px solid pink;
+  color: pink;
+  padding: 4px 12px 3px;
+  background-color: black;
+} */
+
+@keyframes color-text-shift {
+  0%   {color: rgb(255, 161, 175);}
+  20%   {color: rgb(214, 125, 255);}
+  40%  {color: rgb(104, 193, 235);}
+  60%  {color: rgb(116, 201, 67);}
+  80%  {color: rgb(255, 168, 55);}
+  100%   {color: rgb(255, 161, 175);}
+}
+
+/* The element to apply the animation to */
+/* div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 20;
+} */
+
+
+
+
+.rainbow-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  width: 175px;
+  background-image: url("http://www.sotasurvey.org/rainbow.jpg");
+  z-index: 10;
+  background-position: center;
+  background-size: cover;
+}
+
+.tech-icon {
+  height: 50px;
+}
+
+.tech-stack-intro-p {
+  margin-top: 75px;
+  padding-top: 25px;
+  border-top: 1px solid black;
+}
+
+.intro-title-p {
+  margin-top: 25px;
+  /* margin-bottom: 75px; */
+  padding-bottom: 25px;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+  max-width: 960px;
+  line-height: 22px;
+}
+
+/* .take-survey-button {
+  background-color: cornflowerblue;
+  color: black;
+  padding: 7px 15px;
+  border-radius: 4px;
+  font-size: 13px;
+  font-family: sans-serif;
+  letter-spacing: .5px;
+  margin-left: 30px;
+} */
+
+/* .take-survey-button:hover {
+  cursor: pointer;
+  background-color: rgb(133, 170, 238);
+  transition: .2s;
+} */
+
+.take-survey-button {
+  /* background-color: cornflowerblue; */
+  color: black;
+  padding: 10px 35px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: sans-serif;
+  letter-spacing: .5px;
+  margin-left: 30px;
+  border: 1px solid black;
+  letter-spacing: 1.5px;
+  font-weight: 50;
+  opacity: .9;
+  transition: .2s;
+}
+
+.take-survey-button:hover {
+  cursor: pointer;
+  transition: .2s;
+  opacity: 1;
+}
+
+.graph-buyers {
+  overflow: visible;
+  width: 900px;
+  height: 700px;
+  margin-top: -20px !important;
+  margin-left: -50px !important;
+}
+
+.sales-mediums-cloud {
+  overflow: visible;
+  width: 900px;
+  height: 650px;
+  margin-top: -50px !important;
+  margin-left: -80px !important;
+}
+
+.graph-exhibition-contact {
+  margin-top: -10px !important;
+  margin-left: -50px !important;
+}
+
+.graph-gallery-spaces {
+  margin-top: -20px !important;
+  margin-bottom: 50px !important;
+}
+
+.graph-keywords {
+  margin-left: 30px !important;
+}
+
+
+.sales-mediums-cloud, 
+.graph-buyers, 
+.graph-exhibition-contact, 
+.graph-gallery-spaces, 
+.graph-keywords, 
+.cities-neighborhoods-cloud,
+.studio-visit-sources-cloud,
+.sale-types-cloud,
+.social-media-positives,
+.art-resources,
+.social-media-negatives,
+.job-types,
+.current-school,
+.past-degrees,
+.cities-neighborhoods-cloud,
+.previous-city,
+.city-benefits,
+.schools-taught-at,
+.extra-duties,
+.positive-shoutout,
+.negative-shoutout,
+.final-thoughts,
+.studio-visitors-cloud {
+  fill: black;
+  /* animation: fill-text-shift; */
+  /* animation-duration: 20s; */
+  /* animation-iteration-count: infinite; */
+  /* text-shadow: -12px 12px 2px rgba(0,0,0,0.05); */
+  text-transform: capitalize;
+}
+
+.graph-keywords-mobile,
+.graph-keywords-mobile,
+.graph-exhibition-contact-mobile,
+.final-thoughts-mobile,
+.negative-shoutout-mobile,
+.positive-shoutout-mobile,
+.extra-duties-mobile,
+.schools-taught-at-mobile,
+.city-benefits-mobile,
+.previous-city-mobile,
+.cities-neighborhoods-cloud-mobile,
+.past-degrees-mobile,
+.current-school-mobile,
+.job-types-mobile,
+.art-resources-mobile,
+.social-media-negatives-mobile,
+.social-media-positives-mobile,
+.sale-types-cloud-mobile,
+.studio-visit-sources-cloud-mobile,
+.studio-visitors-cloud-mobile,
+.sales-mediums-cloud-mobile,
+.graph-buyers-mobile,
+.graph-gallery-spaces-mobile {
+  height: 1500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  fill: black;
+  /* animation: fill-text-shift; */
+  /* animation-duration: 20s; */
+  /* animation-iteration-count: infinite; */
+  /* width: 500px; */
+}
+
+.graph-gallery-spaces-mobile,
+.graph-buyers-mobile,
+.sale-types-cloud-mobile {
+  height: 900px;
+  margin-top: 75px !important;
+  margin-bottom: -75px !important;
+}
+
+.social-media-positives-mobile {
+  height: 900px;
+  transform: translate(75px, 0);
+}
+
+.social-media-negatives-mobile,
+.art-resources-mobile {
+  height: 1000px;
+  transform: translate(100px, 0);
+}
+
+.schools-taught-at-mobile {
+  height: 750px;
+  margin-top: 50px !important;
+  transform: translate(100px, 0);
+}
+
+.extra-duties-mobile {
+  height: 1000px;
+  width: 300px;
+  transform: translate(35px, 0);
+}
+
+.positive-shoutout-mobile,
+.negative-shoutout-mobile {
+  height: 1000px;
+  width: 300px;
+  transform: translate(50px, 0);
+}
+
+.final-thoughts-mobile {
+  height: 1600px;
+  width: 300px;
+  transform: translate(50px, 0);
+}
+
+
+.graph-buyers {
+  margin-left: 25px !important;
+  margin-top: 15px !important;
+}
+
+path {
+    stroke: black !important;
+}
+
+rect {
+  stroke: black !important;
+  opacity: 1 !important;
+  /* animation: stroke-shift; */
+  /* animation-duration: 20s; */
+  /* animation-iteration-count: infinite; */
+}
+
+.pie-path {
+  stroke: black;
+  opacity: 1 !important;
+  /* animation: stroke-shift; */
+  /* animation-duration: 20s; */
+  /* animation-iteration-count: infinite; */
+}
+
+.sales-mediums-cloud-mobile {
+  height: 500px;
+  width: 400px;
+  /* margin-top: 0px !important; */
+  margin-left: 50px !important;
+  margin-bottom: 150px !important;
+}
+
+.current-school-mobile {
+  height: 900px;
+  width: 300px;
+  transform: translate(100px, 25px);
+}
+
+.past-degrees-mobile {
+  height: 1400px;
+  width: 300px;
+  transform: translate(50px, 0px);
+}
+
+.current-school-mobile {
+  height: 900px;
+  width: 300px;
+  transform: translate(100px, 25px);
+}
+
+.job-types-mobile {
+  height: 1000px;
+  width: 300px;
+  transform: translate(100px, 25px);
+}
+
+
+
+.studio-space-type, 
+.studio-size {
+  height: 550px;
+}
+
+.studio-visitors-cloud,
+.art-resources,
+.social-media-negatives,
+.job-types,
+.current-school,
+.past-degrees,
+.cities-neighborhoods-cloud,
+.previous-city,
+.city-benefits,
+.schools-taught-at,
+.extra-duties,
+.positive-shoutout,
+.negative-shoutout,
+.final-thoughts,
+.studio-visit-sources-cloud {
+  height: 700px;
+  width: 1000px;
+}
+
+@keyframes fill-text-shift {
+  0%   {fill: rgb(255, 161, 175);}
+  20%   {fill: rgb(214, 125, 255);}
+  40%  {fill: rgb(104, 193, 235);}
+  60%  {fill: rgb(116, 201, 67);}
+  80%  {fill: rgb(255, 168, 55);}
+  100%   {fill: rgb(255, 161, 175);}
+}
+
+@keyframes stroke-shift {
+  0%   {stroke: rgb(255, 161, 175);}
+  20%   {stroke: rgb(214, 125, 255);}
+  40%  {stroke: rgb(104, 193, 235);}
+  60%  {stroke: rgb(116, 201, 67);}
+  80%  {stroke: rgb(255, 168, 55);}
+  100%   {stroke: rgb(255, 161, 175);}
+}
+
+.social-media-positives {
+  height: 800px;
+  width: 1000px;
+  text-transform: capitalize;
+  margin-left: -50px;
+}
+
+.sales-mediums-cloud {
+  height: 650px;
+  width: 650px;
+}
+
+.sale-types-cloud {
+  height: 600px;
+  width: 750px;
+  margin-left: 25px !important;
+}
+
+.sale-types-cloud-mobile {
+  height: 750px;
+  width: 500px;
+  margin-left: 50px !important;
+}
+
+.sales-mediums-cloud {
+  height: 500px;
+  width: 750px;
+  margin-left: 0px !important;
+  margin-top: 25px !important;
+}
+
+.studio-visitors-cloud-mobile {
+  /* width: 500px; */
+  height: 750px;
+}
+
+
+.sale-types-cloud text {
+  text-transform: capitalize !important;
+}
+
+/* .graph-legal-paperwork,
+.graph-exhibitions-priority,
+.graph-socialmedia-features,
+.graph-residency-priority {
+  margin-bottom: 65px !important;
+} */
+
+/* .graph-exhibitions-priority {
+  margin-top: 65px !important;
+} */
+
+text {
+  text-transform: initial;
+}
+
+/* 
+@keyframes fill-text-shift {
+  0% {fill: rgb(214, 125, 255);}
+  20% {fill: rgb(255, 161, 175);}
+  40% {fill: rgb(255, 168, 55);}
+  60% {fill: rgb(116, 201, 67);}
+  80% {fill: rgb(104, 193, 235);}
+  100% {fill: rgb(214, 125, 255);}
+} */
+
+/* Main div pages styling starts here. */
+
+.introduction-div { display: block; }
+.demographics-div { display: none; }
+.connections-div { display: none; }
+.conclusions-div { display: none; }
+.word-cloud-div { display: none; }
+.exhibitions-div { display: none; }
+.gallery-spaces-div { display: none; }
+.finding-shows-div { display: none; }
+.map-div { display: none; }
+.studio-visits-div { display: none; }
+.sales-div { display: none; }
+.sales-cloud-div { display: none; }
+.sales-mediums-cloud-div { display: none; }
+.cities-neighborhoods-cloud-div { display: none; }
+.studio-visitors-cloud-div { display: none; }
+.studio-visit-sources-cloud-div { display: none; }
+.websites-social-media-div { display: none; }
+.studio-habits-div { display: none; }
+.employment-div { display: none; }
+.schools-div { display: none; }
+.cities-div { display: none; }
+.galleries-div { display: none; }
+.instructors-div { display: none; }
+.closing-thoughts-div { display: none; }
+.general-information { display: none; }
+.exhibitions-opportunities { display: none; }
+.studio-visits-sales { display: none; }
+
+.mobile-only { display: none; }
+
+/* .introduction { display: none; } */
+/* .left-nav-highlighted { display: none; } */
+/* .word-cloud { display: none; } */
+/* .general-information { display: none; } */
+/* .exhibitions-opportunities { display: none; } */
+/* .studio-visits-sales { display: none; } */
+/* .websites-social-media { display: none; } */
+/* .studio-habits { display: none; } */
+/* .employment { display: none; } */
+/* .schools { display: none; } */
+/* .cities { display: none; } */
+/* .galleries { display: none; } */
+/* .instructors { display: none; } */
+/* .closing-thoughts { display: none; } */
+
+.graph-sale-platforms-mobile {
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    height: 850px;
+    transform: translate(-490px, 0) rotate(90deg);
+}
+
+
+.studio-visit-sources-cloud-mobile {
+  height: 1600px;
+  width: 500px;
+  margin-left: 50px !important;
+  margin-top: 25px !important;
+}
+
+.previous-city-mobile,
+.cities-neighborhoods-cloud-mobile {
+  height: 1200px;
+  margin-left: 75px !important;
+}
+.city-benefits-mobile {
+  height: 1500px;
+  margin-left: 75px !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+/* .main-header-container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: black;
+  z-index: 25;
+} */
+
+
+/* Responsive styling starts here. */
+
+@media only screen and (max-width: 1000px) {
+  .left-column-container{ display: none; }
+  .main-header-nav { display: block; }
+  .mobile-drop-down { display: block; }
+  .main-header-section { padding-left: 15px; }
+  .left-column-header-hand-mobile { display: inline-block; }
+}
+
+@media only screen and (max-width: 600px) {
+  .mobile-only { display: block; }
+  .desktop-only { display: none; }
+  svg { display: block; margin-left: auto; margin-right: auto; }
+  .main-section-body svg { margin: 65px auto }
+  .main-section-body { overflow-x: hidden !important; }
+}

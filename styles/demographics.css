@@ -1,0 +1,81 @@
+.graph-race {
+  margin-bottom: 200px;
+}
+/* .graph-gender rect {
+border: 3px solid pink;
+} */
+
+.graph-keywords {
+  overflow: visible;
+  width: 900px;
+  height: 675px;
+  z-index: -1;
+}
+
+.graph-gallery-spaces {
+  overflow: visible;
+  width: 900px;
+  height: 675px;
+  z-index: -1;
+}
+
+.graph-exhibition-contact {
+  overflow: visible;
+  width: 900px;
+  height: 675px;
+  z-index: -1;
+}
+
+.word-cloud-text {
+  font-size: 8px;
+  margin-left: -27.5px;
+  margin-top: -2px;
+  opacity: .1;
+  font-weight: 100;
+  transition: .5s;
+  cursor: pointer;
+  position: relative;
+}
+
+.word-cloud-text:hover {
+  font-size: 12px;
+  margin-left: -27.5px;
+  margin-top: -2px;
+  opacity: 1;
+}
+
+.map-hover-notes {
+  padding-top: 40px;
+  /* padding-left: 35px; */
+  width: 550px;
+  text-align: center;
+}
+
+.finding-shows-div {
+  /* fill: rgb(206, 164, 219); */
+}
+
+.word-cloud-div {
+  /* fill: cornflowerblue; */
+}
+
+.gallery-spaces-div {
+  /* fill: rgb(255, 163, 179) */
+}
+
+
+/* .graph-found-survey {} */
+/* .graph-orientation {} */
+/* .graph-age {} */
+
+
+
+colors {
+  color: rgb(233, 187, 221);
+  color: rgb(247, 193, 209);
+  color: rgb(250, 192, 187);
+  color: rgb(247, 210, 187);
+  color: rgb(206, 235, 159);
+  color: rgb(166, 226, 204);
+  color: rgb(175, 185, 233);
+}
