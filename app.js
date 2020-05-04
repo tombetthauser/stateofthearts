@@ -82,6 +82,20 @@ document.addEventListener('DOMContentLoaded', (_event) => {
       })
     })
 
+    // window.setTimeout(() => {
+    //   document.querySelector('.modal-cover').style.display = 'block'
+    //   document.querySelector('.modal-cover').style.opacity = '1'
+    //   document.querySelector('.modal-outer').style.top = '10vh'
+    //   document.querySelector('.modal-outer').style.position = 'absolute'
+      
+    //   document.querySelector('.modal-close').addEventListener('click', () => {
+    //     document.querySelector('.modal-outer').style.top = '150vh'
+    //     document.querySelector('.modal-cover').style.opacity = '0'
+    //     document.querySelector('.modal-cover').style.display = 'none'
+    //     document.querySelector('.modal-outer').style.position = 'none'
+    //   })
+    // }, 10000)
+
     linkBorderRemove();
     linkShow(`introduction`);
     linkBorderAdd(`introduction`);
