@@ -3,35 +3,29 @@ export default class WordCloud {
     this.title = input.title;
     this.data = input.data;
     this.tag = input.tag;
-
-    this.width = input.width || 1000;
-    this.height = input.height || 750;
-    this.innerWidth = (input.width - 50) || 550;
-    this.innerHeight = (input.height - 50) || 400;
-
     this.margin = input.margin || { top: 20, right: 20, bottom: 20, left: 30 };
-    this.color = input.color || null;
-    this.sideways = input.sideways || false;
-
+    this.innerHeight = (input.height - 50) || 400;
+    this.innerWidth = (input.width - 50) || 550;
     this.multiplier = input.multiplier || 5;
+    this.sideways = input.sideways || false;
     this.minSize = input.minSize || 5;
+    this.height = input.height || 750;
+    this.width = input.width || 1000;
+    this.color = input.color || null;
   }
 
   render() {
     if (!this.sideways) {
       var svg = d3.select(this.tag).append("svg")
-      // .style("margin-top", 1000000)
       .attr("width", this.width)
       .attr("height", this.height)
       .append("g")
       .attr("transform", "translate(-75,-32.5)");
-
       let multiplier = this.multiplier;
       let minSize = this.minSize;
       let height = this.height;
       let width = this.width;
       let color = this.color;
-
       var layout = d3.layout.cloud()
         .size([this.width, this.height])
         .words(this.data.map(function (d) { return {
@@ -39,11 +33,9 @@ export default class WordCloud {
           size: (d.value * multiplier) >= minSize ? (d.value * multiplier) : minSize
         }; }))
         .padding(5)
-        // .rotate(function () { return 0; })
         .fontSize(function (d) { return d.size; })
         .on("end", draw);
       layout.start();
-
       function draw(words) {
         svg
           .append("g")
@@ -70,7 +62,6 @@ export default class WordCloud {
         .style("margin-top", 500)
         .append("g")
         .attr("transform", "translate(-50,-350)");
-  
       var layout = d3.layout.cloud()
         .size([450, 1800])
         .words(this.data.map(function (d) { return { text: d.name, size: (d.value * 5) }; }))
@@ -79,7 +70,6 @@ export default class WordCloud {
         .fontSize(function (d) { return d.size; })
         .on("end", draw);
       layout.start();
-  
       function draw(words) {
         svg
           .append("g")

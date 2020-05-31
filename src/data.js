@@ -1,44 +1,30 @@
 export const LINKS = [
-  "introduction",
-  "map",
-  "demographics",
-  "exhibitions",
-  "word-cloud",
+  "cities-neighborhoods-cloud",
+  "studio-visit-sources-cloud",
+  "exhibitions-opportunities",
+  "websites-social-media",
+  "studio-visitors-cloud",
+  "sales-mediums-cloud",
+  "general-information",
+  "studio-visits-sales",
+  "closing-thoughts",
   "gallery-spaces",
   "finding-shows",
-  "conclusions",
-  "studio-visits",
-  "sales",
-  "sales-cloud",
-  // "sales-platforms-cloud",
-  "sales-mediums-cloud",
-  "cities-neighborhoods-cloud",
-  "studio-visitors-cloud",
-  "studio-visit-sources-cloud",
-  "websites-social-media",
   "studio-habits",
+  "studio-visits",
+  "demographics",
+  "introduction",
+  "instructors",
+  "conclusions",
+  "sales-cloud",
+  "exhibitions",
   "employment",
+  "word-cloud",
+  "galleries",
   "schools",
   "cities",
-  "galleries",
-  "instructors",
-  "closing-thoughts",
-  "general-information",
-  "exhibitions-opportunities",
-  "studio-visits-sales",
-  // left-nav-highlighted
-  // "word-cloud",
-  // general-information
-  // exhibitions-opportunities
-  // studio-visits-sales
-  // websites-social-media
-  // studio-habits
-  // employment
-  // schools
-  // cities
-  // galleries
-  // instructors
-  // closing-thoughts
+  "sales",
+  "map",
 ];
 
 export const FINAL_THOUGHTS = [
@@ -173,7 +159,6 @@ export const FINAL_THOUGHTS = [
   { name: "practice", value: 2 },
   { name: "kindlong", value: 1 },
   { name: "nah", value: 1 },
-  // { name: "no", value: 10 },
   { name: "thank", value: 9 },
   { name: "collecting", value: 1 },
   { name: "datno", value: 1 },
@@ -289,8 +274,6 @@ export const NEGATIVE_SHOUTOUT = [
   { name: "Sparrow Gallery (Sacramento)", value: 1 },
   { name: "Material Institute", value: 1 },
   { name: "Moma PS1", value: 1 },
-  // { name: "No", value: 3 },
-  // { name: "No ", value: 1 },
   { name: "Governor of Illinois", value: 1 },
   { name: "Onslow Commission on the Arts", value: 1 },
   { name: "NC Arts Council", value: 1 },
@@ -320,7 +303,6 @@ export const POSITIVE_SHOUTOUT = [
   { name: "institutions serve themselves using artists as vehicles", value: 1 },
   { name: "Los Angeles Municipal Art Gallery", value: 1 },
   { name: "Nelson-Atkins", value: 1 },
-  // { name: "No", value: 2 },
   { name: "Not a Single One", value: 1 },
   { name: "Not one", value: 1 },
   { name: "Ox-bow School of Art", value: 1 },
@@ -389,7 +371,6 @@ export const SURVEY_TIME = [
   {name: "10-20", value: ".439"},
   {name: "20-30", value: ".194"},
   {name: "30-60", value: ".02"},
-  // {name: "60+ min", value: ""},
 ]
 
 export const EXTRA_DUTY_PAY = [
@@ -440,7 +421,6 @@ export const TEACHING_ENVIRONMENT_RATING = [
   { name: "extremely positive", value: "0.129" },
   { name: "generally positive", value: "0.484" },
   { name: "neutral / mixed", value: "0.323" },
-  // { name: "generally poor", value: "0" },
   { name: "extremely poor", value: "0.032" },
   { name: "not sure / hard to say", value: "0.032" },
 ]
@@ -450,7 +430,6 @@ export const CAMPUSES_TAUGHT_COUNT = [
   {name: "2", value: ".222"},
   {name: "3", value: ".074"},
   {name: "4", value: ".037"},
-  // {name: "4+", value: "0"},
 ]
 
 export const CLASSES_TAUGHT_COUNT = [
@@ -459,8 +438,6 @@ export const CLASSES_TAUGHT_COUNT = [
   {name: "3", value: ".148"},
   {name: "4", value: ".185"},
   {name: "5", value: ".074"},
-  // {name: "6", value: ""},
-  // {name: "6+", value: ""},
 ]
 
 export const SHOOLS_TAUGHT_AT = [
@@ -523,7 +500,6 @@ export const ART_FAIR_COUNT = [
   {name: "3-5", value: ".109"},
   {name: "6-10", value: ".02"},
   {name: "10+", value: ".01"},
-  // {name: "not sure", value: ""},
 ]
 
 export const RECEPTION_COUNT = [
@@ -803,9 +779,6 @@ export const PREVIOUS_CITY = [
   { name: "North Carolina", value: 1 },
   { name: "North East", value: 1 },
   { name: "New York", value: 9 },
-  // { name: "New York", value: 3 },
-  // { name: "NY", value: 3 },
-  // { name: "NYC", value: 3 },
   { name: "Oak Park", value: 1 },
   { name: "OH", value: 1 },
   { name: "Old North", value: 1 },
@@ -874,13 +847,11 @@ export const STUDENT_LOANS = [
   {name: "$20,000 - $50,000", value: ".14"},
   {name: "$50,000 - $100,000", value: ".08"},
   {name: "$100,000 - $200,000", value: ".06"},
-  // {name: "More than $200,000", value: ""},
   {name: "Not sure / hard to say", value: ".04"},
 ]
 
 export const EDUCATION_EXPERIENCE_RATING = [
   {name: "1", value: ".02"},
-  // {name: "2", value: "0.0"},
   {name: "3", value: ".041"},
   {name: "4", value: ".02"},
   {name: "5", value: ".102"},
@@ -1109,7 +1080,6 @@ export const JOB_INCOME = [
   {name: "$50,000 - $75,000", value: ".08"},
   {name: "$75,000 - $100,000", value: ".04"},
   {name: "$100,000 - $150,000", value: ".02"},
-  // {name: "more than $150,000", value: ""},
 ]
 
 export const JOB_APP_COUNT = [
@@ -1210,7 +1180,6 @@ export const JOB_TYPES = [
 ]
 
 export const STUDIO_HOURS = [
-  // {name: "Less than 1 hour", value: ""},
   {name: "1-2", value: ".069"},
   {name: "2-5", value: ".455"},
   {name: "5-7", value: ".198"},
@@ -1241,7 +1210,6 @@ export const STUDIO_PRICE = [
   {name: "$751 - $1,000", value: ".02"},
   {name: "$1,001 - $2,500", value: ".01"},
   {name: "$2,500 - $5,000", value: ".01"},
-  // {name: "More than $5,000", value: "0.0"},
   {name: "Not sure / hard to say", value: ".031"},
 ]
 
@@ -1264,14 +1232,6 @@ export const STUDIO_SPACE_TYPE = [
   {name: "Studio in a larger studio building", value:	(11 / 163)},
   {name: "Alternative space in non-studio building", value:	(7 / 163)},
   {name: "Other", value:	(4 / 163)},
-  // {name: "Dedicated room / desk / area in living space", value:	48},
-  // {name: "Completely mixed up with living space", value:	45},
-  // {name: "Private studio space", value:	19},
-  // {name: "Space provided by a school / residency etc.", value:	16},
-  // {name: "Shared studio split with another artist / artists", value:	13},
-  // {name: "Studio in a larger studio building", value:	11},
-  // {name: "Alternative space in non-studio building", value:	7},
-  // {name: "Other", value:	4},
 ]
 
 export const ART_RESOURCES = [
