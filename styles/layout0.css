@@ -849,13 +849,13 @@ a:visited {
 
 
 .small-lines {
-  background: repeating-linear-gradient(
+  /* background: repeating-linear-gradient(
     45deg,
     #fff,
     #fff 5px,
     #fff 5px,
     #c4dfff 6px
-  );
+  ); */
 }
 
 .modal-cover {
