@@ -1,10 +1,8 @@
-import * as DATA from "./data";
+import WordCloudMobile from "./WordCloudMobile";
+import WordCloud from "./WordCloud";
 import BarGraph from "./BarGraph";
 import PieChart from "./PieChart";
-import WordCloud from "./WordCloud";
-import WordCloudMobile from "./WordCloudMobile";
-import LineGraph from "./LineGraph";
-import BoxPlot from "./BoxPlot";
+import * as DATA from "./data";
 
 const randColor = () => DATA.COLORS[Math.floor(Math.random() * DATA.COLORS.length)];
 
