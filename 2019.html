@@ -9,12 +9,19 @@
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="./styles/default.css">
     <link class="color-palette-css" rel="stylesheet" href="./styles/layout0.css">
-    <script src="dist/main.js"></script>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
   </head>
   <body class="html-body-container">
+    <div class="loading-div">
+      <div class="loading-inner-div">
+        <p>Welcome to SotA Survey 2019</p>
+        <p>Loading Survey Data...</p>
+        <br><br>
+        <p class="loading-block-paragraph">
+          If parts of this website appear blank after loading please see the "Printable Survey Versions" section as some browsers have trouble loading the data visualization library the site is built with.
+        </p>
+      </div>
+    </div>
+
     </div>
     <aside class="left-column-container">
       <header class="left-column-header small-lines">
@@ -25,6 +32,7 @@
       <section class="left-column-section">
         <ul class="left-column-ul">
           <li class="left-column-li introduction-link left-nav-highlighted-link">Introduction</li>
+            <br>
           <li class="left-column-li word-cloud-link">Studio Keywords</li>
           <li class="left-column-li general-information-link">General Information</li>
           <li class="left-column-li exhibitions-opportunities-link">Exhibitions / Opportunities</li>
@@ -37,7 +45,12 @@
           <li class="left-column-li galleries-link">Galleries / Museums</li>
           <li class="left-column-li instructors-link">Art Instructors</li>
           <li class="left-column-li closing-thoughts-link">Closing Thoughts</li>
-          <li class="left-column-li"><a target="new" href="./src/raw_data.csv">Raw Data (download)</a></li>
+            <br>
+            <li class="left-column-li">Contribute to 2020 Survey</li>
+            <li class="left-column-li merch-link">Promomotional T-Shirts</li>
+          <li class="left-column-li printables-link">Printable Survey Versions</li>
+          <li class="left-column-li"><a target="new" href="./src/raw_data.csv">Raw CSV Data (download)</a></li>
+            <br>
           <li class="left-column-li switch-colors-link">Switch Colors</li>
         </ul>
       </section>
@@ -57,6 +70,7 @@
       <nav class="mobile-drop-down">
         <ul class="left-column-ul">
           <li class="left-column-li introduction-link left-nav-highlighted-link">Introduction</li>
+            <br>
           <li class="left-column-li word-cloud-link">Studio Keywords</li>
           <li class="left-column-li general-information-link">General Information</li>
           <li class="left-column-li exhibitions-opportunities-link">Exhibitions / Opportunities</li>
@@ -69,7 +83,12 @@
           <li class="left-column-li galleries-link">Galleries / Museums</li>
           <li class="left-column-li instructors-link">Art Instructors</li>
           <li class="left-column-li closing-thoughts-link">Closing Thoughts</li>
-          <li class="left-column-li"><a target="new" href="./src/raw_data.csv">Raw Data (download)</a></li>
+            <br>
+            <li class="left-column-li">Contribute to 2020 Survey</li>
+            <li class="left-column-li merch-link">Promomotional T-Shirts</li>
+          <li class="left-column-li printables-link">Printable Survey Versions</li>
+          <li class="left-column-li"><a target="new" href="./src/raw_data.csv">Raw CSV Data (download)</a></li>
+            <br>
           <li class="left-column-li switch-colors-link">Switch Colors</li>
         </ul>
       </nav>
@@ -135,6 +154,15 @@
           <img class="color-only tech-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" alt="">
           <img class="color-only tech-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcoG9TklnGohKNEkHCt8xvHlBybkylL8LmI_pzyQyT03E4hCO9Pg&s" alt="">
         </div>
+
+
+        <script src="dist/main.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+
+
+
         <div class="map-div">
         </div>
         <div class="cities-neighborhoods-cloud-div"></div>
@@ -641,6 +669,8 @@
           <p class="basic-p">What does it all mean? Who can say, the presentation of all this information is specifically intended to not lean towards any particular conclusions so your personal conclusions are as valid as anyone else's.</p>
           <p class="basic-p">Thanks for checkin it out!</p>
         </div>
+        <div class="printables-div">Printables</div>
+        <div class="merch-div">Merch</div>
       </main>
     </section>
   </body>

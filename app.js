@@ -47,6 +47,8 @@ const linkBorderAdd = (link) => {
 
 document.addEventListener('DOMContentLoaded', (_event) => {
 
+  document.querySelector(".loading-div").style.display = "none";
+
   let style = document.querySelector(".mobile-drop-down").style;
   
     document.querySelector(".main-header-nav").addEventListener("click", () => {

@@ -25,6 +25,8 @@ export const LINKS = [
   "cities",
   "sales",
   "map",
+  "printables",
+  "merch",
 ];
 
 export const FINAL_THOUGHTS = [
@@ -1668,7 +1670,7 @@ export const CITIES_NEIGHBORHOODS = [
   { name: 'Wrigleyvalue', value: 1 },
 ]
 
-_justCitiesSanitized = [
+const _justCitiesSanitized = [
   'Albany',
   'Albuquerque',
   'Altadena',

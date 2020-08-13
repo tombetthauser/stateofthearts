@@ -891,6 +891,44 @@ a:visited {
   margin: 20px 30px;
 }
 
+.loading-div {
+  position: absolute;
+  display: block;
+  background-color: rgba(255,255,255,.75);
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
+
+.loading-inner-div {
+  display: block;
+  z-index: 10;
+  background-color: white;
+  color: black;
+
+  border: 1px solid black;
+  box-shadow: -10px 10px 0px rgba(0,0,0,1);
+  /* box-shadow: -10px 15px 15px rgba(0,0,0,0.25); */
+  
+  /* border: 1px solid pink; */
+  /* box-shadow: -10px 10px 0 pink; */
+
+  padding: 30px 30px 65px;
+  /* height: 250px; */
+  width: 350px;
+  max-width: 70%;
+  text-align: center;
+  margin: 15% auto;
+  top: 5%;
+}
+
+.loading-block-paragraph {
+  text-align: justify;
+  width: 270px;
+  display: block;
+  margin: auto;
+}
+
 @media only screen and (max-width: 1000px) {
   .left-column-container{ display: none; }
   .main-header-nav { display: block; }
