@@ -462,6 +462,7 @@ strong {
   font-weight: 50;
   opacity: .9;
   transition: .2s;
+  white-space: nowrap;
 }
 
 .take-survey-button:hover {
