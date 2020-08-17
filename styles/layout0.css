@@ -684,6 +684,42 @@ rect {
   100%   {stroke: rgb(255, 161, 175);}
 }
 
+@keyframes border-shift {
+  0%   {border: 1px solid rgb(255, 161, 175);}
+  20%   {border: 1px solid rgb(214, 125, 255);}
+  40%  {border: 1px solid rgb(104, 193, 235);}
+  60%  {border: 1px solid rgb(116, 201, 67);}
+  80%  {border: 1px solid rgb(255, 168, 55);}
+  100%   {border: 1px solid rgb(255, 161, 175);}
+}
+
+@keyframes border-right-shift {
+  0%   {border-right: 1px solid rgb(255, 161, 175);}
+  20%   {border-right: 1px solid rgb(214, 125, 255);}
+  40%  {border-right: 1px solid rgb(104, 193, 235);}
+  60%  {border-right: 1px solid rgb(116, 201, 67);}
+  80%  {border-right: 1px solid rgb(255, 168, 55);}
+  100%   {border-right: 1px solid rgb(255, 161, 175);}
+}
+
+@keyframes border-top-shift {
+  0%   {border-top: 1px solid rgb(255, 161, 175);}
+  20%   {border-top: 1px solid rgb(214, 125, 255);}
+  40%  {border-top: 1px solid rgb(104, 193, 235);}
+  60%  {border-top: 1px solid rgb(116, 201, 67);}
+  80%  {border-top: 1px solid rgb(255, 168, 55);}
+  100%   {border-top: 1px solid rgb(255, 161, 175);}
+}
+
+@keyframes border-bottom-shift {
+  0%   {border-bottom: 1px solid rgb(255, 161, 175);}
+  20%   {border-bottom: 1px solid rgb(214, 125, 255);}
+  40%  {border-bottom: 1px solid rgb(104, 193, 235);}
+  60%  {border-bottom: 1px solid rgb(116, 201, 67);}
+  80%  {border-bottom: 1px solid rgb(255, 168, 55);}
+  100%   {border-bottom: 1px solid rgb(255, 161, 175);}
+}
+
 .social-media-positives {
   height: 800px;
   width: 1000px;
@@ -949,4 +985,26 @@ a:visited {
   svg { display: block; margin-left: auto; margin-right: auto; }
   .main-section-body svg { margin: 65px auto }
   .main-section-body { overflow-x: hidden !important; }
+
+
+  .modal-outer { border: 2px solid #c4dfff; }
+  .tech-stack-intro-p { border-top: 2px solid #c4dfff; }
+  .left-column-footer { border-right: 2px solid #64aaff; }
+  .left-column-header { border-bottom: 2px solid #c4dfff; border-right: 2px solid #c4dfff; }
+  .main-header-nav { border-bottom: 2px solid #c4dfff; border-right: 2px solid #c4dfff; }
+  .main-header-section { border-bottom: 2px solid #c4dfff; }
+  .navburger-line { border-bottom: 2px solid #c4dfff; }
+  .cities-top-text-div { border-bottom: 2px solid #c4dfff; }
+  .left-nav-highlighted-link { border-bottom: 2px solid #c4dfff; }
+  .intro-title-p { border-bottom: 2px solid #c4dfff; }
+  .current-section-underline { border-bottom: 2px solid #c4dfff; }
+
 }
+
+
+
+
+
+
+
+
