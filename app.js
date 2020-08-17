@@ -63,8 +63,8 @@ document.addEventListener('DOMContentLoaded', (_event) => {
   let style = document.querySelector(".mobile-drop-down").style;
   
     document.querySelector(".main-header-nav").addEventListener("click", () => {
-      if (style.height === "600px") { style.height = "0px"; style.borderBottom = "none"; } 
-      else { style.height = "600px"; style.borderBottom = `1px solid ${state.borderColor()}`; }
+      if (style.height === "650px") { style.height = "0px"; style.borderBottom = "none"; } 
+      else { style.height = "650px"; style.borderBottom = `1px solid ${state.borderColor()}`; }
     });
 
     window.addEventListener('resize', () => {
