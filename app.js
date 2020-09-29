@@ -2,17 +2,17 @@ import { LINKS, SIDE_NOTES } from "./src/data";
 import { RENDER_GRAPHS } from "./src/render";
 
 const state = {
-  paletteCount: 3,
+  paletteCount: 2,
   palette: 0,
   currentPage: "introduction",
   borderColor: () => {
     switch (state.palette) {
       case 0:
-        return "#c4dfff";
+        return "#000";
       case 1:
         return "#fff";
       case 2:
-        return "#000";
+        return "#c4dfff";
     }
   },
 }
@@ -96,9 +96,9 @@ document.addEventListener('DOMContentLoaded', (_event) => {
         document.querySelector(".mobile-drop-down").style.borderBottom = `1px solid ${state.borderColor()}`;
 
         if (state.palette === 0) {
-          colorModeNode.innerHTML = "Night Mode";
+          colorModeNode.innerHTML = "Dark Colors";
         } else if (state.palette === 1) {
-          colorModeNode.innerHTML = "Black & White Mode";
+          colorModeNode.innerHTML = "Light Colors";
         } else if (state.palette === 2) {
           colorModeNode.innerHTML = "Color Mode";
         }
