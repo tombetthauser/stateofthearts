@@ -107,8 +107,8 @@ document.addEventListener('DOMContentLoaded', (_event) => {
 
     
     linkBorderRemove();
-    linkShow(`introduction`);
-    linkBorderAdd(`introduction`);
+    linkShow(`welcome`);
+    linkBorderAdd(`welcome`);
     
     RENDER_GRAPHS();
 })

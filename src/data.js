@@ -27,6 +27,7 @@ export const LINKS = [
   "map",
   "printables",
   "merch",
+  "welcome",
 ];
 
 export const FINAL_THOUGHTS = [
