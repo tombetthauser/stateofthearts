@@ -4,7 +4,7 @@ import { RENDER_GRAPHS } from "./src/render";
 const state = {
   paletteCount: 2,
   palette: 0,
-  currentPage: "introduction",
+  currentPage: "welcome",
   borderColor: () => {
     switch (state.palette) {
       case 0:
