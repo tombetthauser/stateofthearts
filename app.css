@@ -38,4 +38,30 @@
     width: 90%;
     min-width: 500px;
   }
+
+  .buttons-flexbox {
+    display: block;
+    justify-content: none;
+    /* width: 95%; */
+  }
+
+  .flyer-image {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .tiedye-button {
+    width: 90%;
+    display: block;
+    padding: 2% 5%;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 5vw;
+    background-position: top;
+    background-size: 100%;
+  }
+
+  .tiedye-button:nth-of-type(2) {
+    font-size: 3vw;
+  }
 }
