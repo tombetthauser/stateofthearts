@@ -33,7 +33,7 @@
   justify-content: space-evenly;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .main-column {
     width: 90%;
     min-width: 500px;
