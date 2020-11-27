@@ -14,6 +14,7 @@
 
 .tiedye-button {
   background-image: url("./images/tiedye.png");
+  /* background-color: rgb(31, 31, 100); */
   background-position: center;
   background-size: 250%;
   padding: 10px 25px;
