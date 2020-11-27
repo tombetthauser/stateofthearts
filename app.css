@@ -1,3 +1,33 @@
 /* @import "./styles/layout.css"; */
 @import "./styles/demographics.css";
 @import "./styles/states.css";
+
+.main-column {
+  width: 500px;
+  margin: 7.5% auto;
+}
+
+.flyer-image {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.tiedye-button {
+  background-image: url("./images/tiedye.png");
+  background-position: center;
+  background-size: 250%;
+  padding: 10px 25px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tiedye-button:nth-of-type(1) {
+  background-position: left;
+}
+
+.buttons-flexbox {
+  display: flex;
+  justify-content: space-evenly;
+}
