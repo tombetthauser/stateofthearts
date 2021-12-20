@@ -8,7 +8,7 @@ Currently using a Google form with clunky csv update script for reasons of lazin
 Survey can be taken at any time by anyone that considers themselves an artist.
 
 [project website](http://sotasurvey.org)<br>
-[take the survey](https://docs.google.com/forms/d/e/1FAIpQLScig1Y76HNPxZBzUw-rho2TlluIG2g1845xFRBA7cfuUK1C9g/viewform)<br>
+[take the survey](https://forms.gle/jg3vXN7Qait3AyLr9)<br>
 [data explorer](https://tombetthauser.github.io/2019_dataexplorer/)<br>
 [raw data](http://www.sotasurvey.org/src/raw_data.csv)<br>
 
