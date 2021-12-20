@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Learn D3 in 5 minutes</title>
+</head>
+
+<style>
+  svg {
+    border: 1px solid cornflowerblue;
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin-bottom: 20px;
+  }
+</style>
+
+<body>
+
+<h3></h3>
+<ul></ul>
+<svg id="svg-1"></svg>
+<svg id="svg-2"></svg>
+<button>button</button>
+
+<script src='https://d3js.org/d3.v4.min.js'></script>
+
+<script>
+    var fruits = ['apple', 'mango', 'banana', 'orange'];
+    d3.select('ul')
+        .selectAll('li')
+        .data(fruits)
+        .enter()
+        .append('li')
+        .text(function(d) { return d; });
+
+//Select SVG element
+var svg = d3.select('#svg-1');
+
+//Create rectangle element inside SVG
+svg.append('rect')
+   .attr('x', 0)
+   .attr('y', 0)
+   .attr('width', 250)
+   .attr('height', 250)
+   .attr('fill', 'pink');
+
+
+
+var data = [80, 120, 60, 150, 200];
+var barHeight = 20;
+
+var bar = d3.select('#svg-2')
+          .selectAll('rect')
+          .data(data)
+          .enter()
+          .append('rect')
+          .attr('width', function(d) {  return d; })
+          .attr('height', barHeight - 1)
+          .attr('transform', function(d, i) {
+            return "translate(0," + i * barHeight + ")";
+          });
+
+d3.select('button')
+        .on('click', function () {
+            d3.select('h3')
+              //  .append('h3')
+               .text('Today is a beautiful day!!');
+        });
+
+// d3.csv("./data.csv", function(data){
+//   console.log(data)
+// });
+
+</script>
+
+<script src="data.js"></script>
+<script src="parser.js"></script>
+
+<script>
+  const jsonData = csvPojoParser(csv);
+  // console.log(csv)
+
+  d3.json(jsonData, data => {
+    console.log(data);
+  })
+</script>
+
+</body>
+</html>

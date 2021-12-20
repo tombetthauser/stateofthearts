@@ -1,0 +1,85 @@
+/* @import "./styles/layout.css"; */
+@import "./styles/demographics.css";
+@import "./styles/states.css";
+
+.main-column {
+  width: 500px;
+  margin: 7.5% auto;
+}
+
+.flyer-image {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.tiedye-button {
+  background-image: url("./images/tiedye.png");
+  /* background-color: rgb(31, 31, 100); */
+  background-position: center;
+  background-size: 250%;
+  padding: 10px 25px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tiedye-button:nth-of-type(1) {
+  background-position: left;
+}
+
+.buttons-flexbox {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.shirts-link {
+  color: rgb(85, 97, 206);
+  /* font-family: sans-serif; */
+  /* font-weight: 600; */
+  text-align: center;
+  display: block;
+  margin: 30px auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .main-column {
+    width: 90%;
+    min-width: 500px;
+  }
+
+  .buttons-flexbox {
+    display: block;
+    justify-content: none;
+    /* width: 95%; */
+  }
+
+  .flyer-image {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .tiedye-button {
+    width: 90%;
+    display: block;
+    padding: 2% 5%;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 6vw;
+    background-position: top;
+    background-size: 100%;
+    height: 8vw;
+    padding-top: 4vw;
+  }
+  
+  .tiedye-button:nth-of-type(2) {
+    font-size: 3vw;
+    height: auto;
+    padding-top: 2%;
+  }
+
+  .shirts-link {
+    margin: 5% auto;
+    font-size: 3vw;
+  }
+}
