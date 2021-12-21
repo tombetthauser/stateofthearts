@@ -10,7 +10,7 @@ Survey can be taken at any time by anyone that considers themselves an artist.
 [project website](http://sotasurvey.org)<br>
 [take the survey](https://forms.gle/jg3vXN7Qait3AyLr9)<br>
 [data explorer](https://tombetthauser.github.io/2019_dataexplorer/)<br>
-[raw data](http://www.sotasurvey.org/src/raw_data.csv)<br>
+[raw data](http://www.sotasurvey.org/data.csv)<br>
 
 ---
 
