@@ -231,19 +231,6 @@ class Table {
       document.querySelector("#table-div").innerHTML = "";
     })
   }
-
-  addNightModeListener() {
-    // const nightCheckbox = document.querySelector("#night-checkbox");
-    // const styleLink = document.querySelector("#style-link");
-
-    // nightCheckbox.addEventListener("change", () => {
-    //   if (nightCheckbox.checked === true) {
-    //     styleLink.href = "app_dark.css"
-    //   } else {
-    //     styleLink.href = "app_light.css"
-    //   }
-    // })
-  }
 }
 
 setTimeout(() => {
