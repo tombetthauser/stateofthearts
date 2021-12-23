@@ -52,6 +52,7 @@ th:nth-child(1), td:nth-child(1) {
   appearance: none;
   /* filter: invert(1); */
   cursor: pointer;
+  max-width: 500px;
 }
 
 #submit-button, #reset-button {
@@ -199,6 +200,7 @@ a {
 
 #intro-text {
   width: 90%;
+  max-width: 500px;
   margin-top: 0px;
   margin-bottom: 30px;
 }
