@@ -239,7 +239,6 @@ const init = () => {
     newTable.getAllQuestions()
     newTable.populateDropDowns();
     newTable.setDropdownSubmitListener();
-    newTable.addNightModeListener();
     newTable.addResetListener();
   })
 }
