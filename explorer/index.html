@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.75">
+  <title>🔍 SotA Data Explorer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+  <link id="style-link" rel="stylesheet" href="app.css">
+  <script src="https://d3js.org/d3.v4.js"></script>
+</head>
+<body>
+  <section id="intro-text">
+    <h1>SotA Survey Data Explorer</h1>
+    <p>
+      A data exploration tool for the state of the arts visual artists survey. Custom generates tables cross-referencing questions and participant responses. 
+    </p>
+    <p>
+      Select two questions to create a new table. Numbers generated represent participant counts.
+    </p>
+    <a href="https://forms.gle/jg3vXN7Qait3AyLr9">take the survey</a><br>
+    <a href="http://www.sotasurvey.org/">main webpage</a><br>
+    <a href="http://www.sotasurvey.org/data.csv">raw data</a><br>
+    <a href="https://github.com/tombetthauser/stateofthearts">github</a>
+  </section>
+  <form id="dropdown-form">
+    <div id="y-dropdown-div">
+      <br><span class="dropdown-span">Y:</span><select id="y-dropdown" name="y-dropdown"></select>
+    </div>
+    <div id="x-dropdown-div">
+      <br><span class="dropdown-span">X:</span><select id="x-dropdown" name="x-question"></select>
+    </div>
+    <div class="checkboxes-div">
+      <!-- <input type="checkbox" id="night-checkbox" name="night" value="night"> -->
+      <!-- <label for="sorted-checkbox">night mode</label> -->
+      <input type="checkbox" id="sorted-checkbox" name="sorted" value="sorted">
+      <label for="sorted-checkbox">sort table</label>
+      <input type="checkbox" id="split-checkbox" name="split" value="split">
+      <label for="split-checkbox">split responses</label>
+    </div>
+    <div class="buttons-div">
+      <p id="submit-button">create data table</p>
+      <p id="reset-button">reset table</p>
+    </div>
+  </form>
+
+  <div id="table-div"></div>
+  <script src="app.js"></script>
+</body>
+</html>
