@@ -79,7 +79,7 @@ th:nth-child(1), td:nth-child(1) {
   /* min-width: 600px;
   max-width: 1000px; */
   width: 90%;
-  display: block;
+  display: none;
   /* margin-left: auto;
   margin-right: auto; */
 }
@@ -203,4 +203,14 @@ a {
   max-width: 500px;
   margin-top: 0px;
   margin-bottom: 30px;
+}
+
+#init-button {
+  /* background-color: none;
+  border: 1px solid black; */
+  margin-top: 50px;
+  display: block;
+  cursor: pointer;
+  padding-left: 15px;
+  padding-right: 15px;
 }

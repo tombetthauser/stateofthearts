@@ -233,8 +233,7 @@ class Table {
   }
 }
 
-setTimeout(() => {
-  alert('hellow now again now!')
+const init = () => {
   d3.csv('https://www.sotasurvey.org/2019.csv', data => {
     const newTable = new Table(data);
     newTable.getAllQuestions()
@@ -243,4 +242,10 @@ setTimeout(() => {
     newTable.addNightModeListener();
     newTable.addResetListener();
   })
-}, 100)
+}
+
+document.querySelector("#init-button").addEventListener("click", () => {
+  document.querySelector("#init-button").style.display = "none";
+  document.querySelector("#dropdown-form").style.display = "block";
+  init();
+})
