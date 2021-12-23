@@ -244,8 +244,8 @@ const init = () => {
   })
 }
 
-document.querySelector("#init-button").addEventListener("click", () => {
-  document.querySelector("#init-button").style.display = "none";
-  document.querySelector("#dropdown-form").style.display = "block";
+// document.querySelector("#init-button").addEventListener("click", () => {
+document.querySelector("#init-button").style.display = "none";
+document.querySelector("#dropdown-form").style.display = "block";
   init();
-})
+// })
