@@ -45,14 +45,14 @@ th:nth-child(1), td:nth-child(1) {
 }
 
 #y-dropdown, #x-dropdown {
-  background-color: white;
+  /* background-color: white;
   color: black;
   border: none;
   font-family: monospace;
-  appearance: none;
+  appearance: none; */
   /* filter: invert(1); */
   cursor: pointer;
-  max-width: 500px;
+  max-width: 350px;
 }
 
 #submit-button, #reset-button {
@@ -126,15 +126,15 @@ th:nth-child(1), td:nth-child(1) {
 }
 
 .dropdown-span {
-  border-left: 1px solid black;
+  /* border-left: 1px solid black;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid black; */
   /* height: 24px; */
   /* width: 7.5px; */
   z-index: 2;
   display: inline-block;
   margin-top: -8.5px;
-  padding: 4px 2px 4px 6px;
+  padding: 4px 7px 4px 6px;
 }
 
 #top-row > th {
@@ -178,6 +178,7 @@ a {
   display: flex;
   align-items: center;
   margin-bottom: 0px;
+  margin-top: 30px;
 }
 
 .buttons-div {
